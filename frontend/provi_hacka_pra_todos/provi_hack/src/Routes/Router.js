@@ -9,7 +9,6 @@ import Login from '../Login';
 const Router = () => {
   return (
     <BrowserRouter>
-      {/* Páginas dos ROUTERS. */}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/cadastro" element={<CadastroPage />} />
